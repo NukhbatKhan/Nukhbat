@@ -20,7 +20,7 @@ public class spider1
       try{
       for(int n=0;n<=priceList.size();n++)
       {
-      System.out.println("Product Number: "+n+1+ "\n Product name = " + productNameList.get(n).getText() + "\nPrice = "+priceList.get(n).getText() ); 
+      System.out.println("Product Number: "+n+ "\n Product name = " + productNameList.get(n).getText() + "\nPrice = "+priceList.get(n).getText() ); 
       }
 
       }catch(IndexOutOfBoundsException e)
